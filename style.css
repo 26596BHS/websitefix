@@ -12,13 +12,13 @@ img { width: 100%; }
 /* LIGHT MODE */
 body.light {
     background-color: #1a1a1a;
-    color: black;
+    color: white;
 }
 
 /* DARK MODE */
 body.dark {
-    background-color: #1a1a1a;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 /* Toggle Button */
