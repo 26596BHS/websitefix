@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Richmond's Showcase Website</title>
+</head>
+
+<body class="light">
+
+    <!-- Dark/Light Mode Toggle -->
+    <button class="mode-toggle" onclick="toggleMode()">Toggle Dark/Light Mode</button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="video.html">Video</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">Richmond's Showcase Website</div>
+    </section>
+
+    <!-- Topic Section -->
+    <section class="topic">
+        <div class="topic-title">
+            <h1>Image Creation</h1>
+        </div>
+
+        <div class="topic-content">
+            <div class="topic-card">
+                <img src="images/pixle art1.png" alt="change this too!">
+                <h2 class="topic-card-text">pixel art</h2>
+            </div>
+
+            <div class="topic-card">
+                <img src="images/pixle art 2.png" alt="change this too!">
+                <h2 class="topic-card-text">pixel artz</h2>
+            </div>
+
+            <div class="topic-card">
+                <img src="images/background.png" alt="change this too!">
+                <h2 class="topic-card-text">background</h2>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy;2026 Richmond Kingsley</p>
+    </footer>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark");
+            document.body.classList.toggle("light");
+        }
+    </script>
+
+</body>
+</html>

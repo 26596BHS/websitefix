@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery - Richmond</title>
+</head>
+
+<body class="light">
+
+    <button class="mode-toggle" onclick="toggleMode()">Toggle Dark/Light Mode</button>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="video.html">Video</a>
+    </nav>
+
+    <section class="topic">
+        <div class="topic-title">
+            <h1>Gallery</h1>
+        </div>
+
+        <div class="topic-content">
+            <div class="topic-card">
+                <img src="c:\Users\richm\Downloads\Y10 CS_ 1.6 Binary & Hex - PaintByNumbers_Dragon_wHexcodes.xcf">
+                <h2 class="topic-card-text">Image of Dragon</h2>
+            </div>
+
+            <div class="topic-card">
+                <img src="c:\Users\richm\Downloads\SNOWMAN.PNG">
+                <h2 class="topic-card-text">Snowman</h2>
+            </div>
+
+            <div class="topic-card">
+                <img src="c:\Users\richm\Downloads\Car.png.zip">
+                <h2 class="topic-card-text">Car</h2>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark");
+            document.body.classList.toggle("light");
+        }
+    </script>
+
+</body>
+</html>
