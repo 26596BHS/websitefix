@@ -11,7 +11,7 @@ img { width: 100%; }
 
 /* LIGHT MODE */
 body.light {
-    background-color: white;
+    background-color: black;
     color: black;
 }
 
