@@ -9,6 +9,10 @@ body, html {
 
 img { width: 100%; }
 
+title {
+    color: black;
+}
+
 /* LIGHT MODE */
 body.light {
     background-color: white;
