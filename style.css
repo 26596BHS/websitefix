@@ -9,10 +9,6 @@ body, html {
 
 img { width: 100%; }
 
-title {
-    color: black;
-}
-
 /* LIGHT MODE */
 body.light {
     background-color: white;
@@ -65,6 +61,7 @@ body.dark {
 }
 
 .hero-text {
+    color: black;
     font-size: 4em;
     font-weight: bold;
 }
